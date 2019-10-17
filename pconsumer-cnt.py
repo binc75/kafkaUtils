@@ -11,7 +11,7 @@ consumer_configs = {
    'bootstrap.servers': 'kb1-tds:9092,kb2:9092,kb3-tds:9092',
    'security.protocol': 'sasl_ssl',
    'ssl.endpoint.identification.algorithm': 'none',
-   'enable.ssl.certificate.verification': 'false',
+   'enable.ssl.certificate.verification': 'true',
    'ssl.ca.location': './ca-cert',
    'sasl.mechanism': 'PLAIN',
    'sasl.username': 'user1',
